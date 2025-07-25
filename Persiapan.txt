@@ -1,0 +1,40 @@
+LOCAL SERVER
+Local server adalah server yang berjalan di komputer sendiri (bukan di internet) untuk mengembangkan dan mengetes website atau aplikasi sebelum dipublikasikan.
+Biasanya diakses lewat localhost atau 127.0.0.1.
+Tools :
+        XAMPP
+        Paket server lengkap (Apache, MySQL, PHP, dll).
+        Ada antarmuka GUI.
+        Cocok untuk pemula.
+        Bisa dipakai di Windows, macOS, dan Linux.
+        Agak berat dan perlu konfigurasi manual untuk virtual host.
+
+        Laragon
+        Hanya untuk Windows.
+        Lebih ringan dan cepat dari XAMPP.
+        Auto buat domain lokal .test (misalnya: project.test).
+        Bisa ganti versi PHP dengan mudah.
+        Sangat cocok untuk PHP dan framework seperti Laravel, WordPress.
+
+        Laravel Valet
+        Untuk macOS dan Linux.
+        Super ringan dan hanya jalan di background (tanpa GUI).
+        Khusus untuk pengembangan Laravel dan PHP modern.
+        Otomatis buat domain .test (contoh: blog.test).
+        Tidak cocok untuk pemula total karena semua lewat terminal.
+Saya pake Laravel Valet
+
+
+
+CODE EDITOR
+Untuk Ngoding
+Tools :
+        VS CODE
+        Notepad++
+Saya pake VS CODE
+
+
+
+WEB DESIGN
+untuk bikin desain website
+Tools : Figma
