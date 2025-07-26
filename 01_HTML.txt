@@ -1,0 +1,71 @@
+HTML (HyperText Markup Language) adalah bahasa markup yang digunakan untuk membuat struktur dan isi dari halaman web.
+
+✅ Fungsi Utama:
+Menyusun teks, gambar, video, dan elemen lainnya di web
+Memberi struktur: heading, paragraf, tabel, form, dsb
+Bekerja bareng dengan CSS (untuk desain) dan JavaScript (untuk interaktif)
+
+
+STRUKTUR UTAMA HTML
+
+<!DOCTYPE html>       ← 1. Deklarasi tipe dokumen
+<html>                ← 2. Tag pembungkus utama
+  <head>              ← 3. Bagian informasi (tidak tampil di halaman)
+    <title>Judul</title>  ← 4. Judul halaman (muncul di tab browser)
+    <!-- Meta, link, style, script, dll -->
+  </head>
+  <body>              ← 5. Isi halaman (yang ditampilkan ke pengguna)
+    <h1>Halo!</h1>
+    <p>Ini paragraf.</p>
+    <!-- Konten lain: gambar, tombol, link, dsb -->
+  </body>
+</html>
+
+
+TEKS DAN HEADING
+| Elemen               | Fungsi                                                    |
+| -------------------- | --------------------------------------------------------- |
+| `<h1>` sampai `<h6>` | Heading (judul). `<h1>` paling besar, `<h6>` paling kecil |
+| `<p>`                | Paragraf                                                  |
+| `<br>`               | Ganti baris (line break)                                  |
+| `<hr>`               | Garis pemisah horizontal                                  |
+| `<strong>`           | Teks tebal (penting)                                      |
+| `<em>`               | Teks miring (penekanan)                                   |
+| `<span>`             | Membungkus teks kecil, inline                             |
+| `<div>`              | Pembungkus blok besar, layout (sering dipakai)            |
+
+LINK DAN GAMBAR
+| Elemen  | Fungsi                             |
+| ------- | ---------------------------------- |
+| `<a>`   | Hyperlink (tautan ke halaman lain) |
+| `<img>` | Menampilkan gambar                 |
+
+
+DAFTAR
+| Elemen | Fungsi                        |
+| ------ | ----------------------------- |
+| `<ul>` | Unordered list (pakai bullet) |
+| `<ol>` | Ordered list (pakai angka)    |
+| `<li>` | List item (isi dari ul/ol)    |
+
+
+FORM DAN INPUT
+| Elemen       | Fungsi                           |
+| ------------ | -------------------------------- |
+| `<form>`     | Formulir input                   |
+| `<input>`    | Input teks, checkbox, radio, dsb |
+| `<textarea>` | Input teks panjang               |
+| `<button>`   | Tombol                           |
+| `<label>`    | Label untuk input                |
+
+
+MEDIA DAN INTERAKTIF
+| Elemen     | Fungsi                                    |
+| ---------- | ----------------------------------------- |
+| `<audio>`  | Menambahkan suara                         |
+| `<video>`  | Menambahkan video                         |
+| `<iframe>` | Menyisipkan halaman lain (misal: YouTube) |
+
+
+Fokus dulu ke: <p>, <h1>, <a>, <img>, <div>, <ul>, <form>, <input>, <button>
+Banyak elemen yang bisa dipelajari sambil bikin mini project

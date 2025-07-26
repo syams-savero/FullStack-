@@ -1,0 +1,25 @@
+Git adalah sebuah sistem kontrol versi (version control system) yang digunakan untuk melacak perubahan pada file atau kode program.
+
+Fungsi Utama Git:
+Melacak perubahan kode – Kamu bisa lihat versi sebelumnya dari file.
+Kerja tim – Banyak orang bisa kerja bareng di project yang sama tanpa konflik.
+Backup lokal – Semua riwayat perubahan tersimpan di komputermu.
+Eksperimen bebas – Bisa buat cabang (branch) untuk coba fitur baru tanpa ganggu project utama.
+
+PERINTAH DASAR GIT 
+| Perintah                        | Fungsi                                             |
+| ------------------------------- | -------------------------------------------------- |
+| `git init`                      | Membuat repo Git baru di folder (inisialisasi Git) |
+| `git clone <url>`               | Meng-clone repo dari GitHub / GitLab ke komputer   |
+| `git status`                    | Lihat status file (diubah, belum di-commit, dll)   |
+| `git add <file>`                | Menambahkan file ke **staging area**               |
+| `git add .`                     | Menambahkan **semua** file yang berubah ke staging |
+| `git commit -m "pesan"`         | Menyimpan perubahan dengan pesan (snapshot)        |
+| `git log`                       | Melihat histori commit                             |
+| `git diff`                      | Lihat perubahan sebelum di-commit                  |
+| `git branch`                    | Melihat daftar cabang (branch)                     |
+| `git checkout -b <nama-branch>` | Bikin dan pindah ke branch baru                    |
+| `git switch <nama-branch>`      | Pindah branch (lebih modern dari `checkout`)       |
+| `git merge <branch>`            | Menggabungkan branch ke branch aktif sekarang      |
+| `git pull`                      | Mengambil update terbaru dari repo remote (GitHub) |
+| `git push`                      | Mengirim commit ke repo remote (GitHub)            |
