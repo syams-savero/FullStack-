@@ -1,0 +1,239 @@
+CSS adalah singkatan dari Cascading Style Sheets.
+CSS adalah bahasa pemrograman yang digunakan untuk mengatur tampilan dan gaya (style) elemen-elemen HTML pada sebuah halaman web.
+
+Fungsi :
+1. Mengatur tampilan web
+2. Membuat tampilan responsif
+3. Memisahkan konten dan desain
+4. Menghemat waktu
+5. Memberi efek dan animasi
+
+Struktur dasar CSS
+1. Selektor
+Menentukan elemen HTML mana yang akan diberi gaya.
+2. Deklarasi
+Berisi properti dan nilai yang menentukan bagaimana elemen tampil.
+
+
+Cara menghubungkan CSS dengan HTML
+1. Inline CSS (langsung di dalam elemen HTML)
+
+<p style="color: blue; font-size: 18px;">Teks ini biru dan berukuran 18px.</p>
+
+ Kelebihan:
+Cepat dan cocok untuk styling sederhana.
+ Kekurangan:
+Sulit dirawat jika banyak elemen.
+
+
+2. Internal CSS (di dalam tag <style> di bagian <head>)
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    p {
+      color: green;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <p>Teks ini hijau dan berukuran 20px.</p>
+</body>
+</html>
+
+Cocok untuk halaman tunggal.
+
+
+3. External CSS (menggunakan file .css terpisah)
+
+Langkah-langkah:
+a. Buat file HTML (misalnya: index.html)
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Halo Dunia!</h1>
+  <p>Ini halaman dengan CSS eksternal.</p>
+</body>
+</html>
+
+b. Buat file CSS terpisah (misalnya: style.css)
+
+body {
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: navy;
+}
+
+p {
+  color: gray;
+}
+
+Kelebihan:
+Terstruktur rapi
+Bisa digunakan ulang di banyak halaman HTML.
+Kekurangan:
+Butuh file terpisah dan koneksi antar file harus benar.
+
+
+Ringkasan Singkat:
+Inline	Styling cepat atau satu elemen saja
+Internal	Satu halaman dengan gaya khusus
+External	Proyek besar dan banyak halaman
+
+
+Selektor dalam CSS
+1. Selektor Elemen (Tag Selector)
+Menargetkan elemen HTML berdasarkan nama tag-nya.
+
+Contoh:
+css
+Copy code
+p {
+  color: blue;
+}
+
+Semua <p> akan berwarna biru.
+
+
+2. Selektor Class
+Menargetkan elemen dengan atribut class.
+
+CSS:
+css
+Copy code
+.box {
+  border: 1px solid black;
+}
+HTML:
+html
+Copy code
+<div class="box">Ini div dengan class "box"</div>
+
+Gunakan tanda titik (.) di CSS untuk class.
+
+
+3. Selektor ID
+Menargetkan elemen dengan atribut id.
+
+CSS:
+css
+Copy code
+#header {
+  background-color: gray;
+}
+HTML:
+html
+Copy code
+<div id="header">Bagian header</div>
+
+Gunakan tanda pagar (#) di CSS untuk id.
+
+
+4. Selektor Atribut
+Menargetkan elemen berdasarkan atribut tertentu.
+
+Contoh:
+css
+Copy code
+input[type="text"] {
+  background-color: lightyellow;
+}
+
+Hanya input dengan type="text" yang terpengaruh.
+
+
+5. Selektor Gabungan (Kombinasi)
+Gabungkan beberapa selektor.
+
+a. Elemen + Class:
+css
+Copy code
+p.teks-besar {
+  font-size: 24px;
+}
+
+Hanya <p> dengan class="teks-besar".
+
+b. Elemen dalam elemen:
+css
+Copy code
+div p {
+  color: green;
+}
+
+Semua <p> di dalam <div> berwarna hijau.
+
+
+6. Selektor Universal (*)
+Menargetkan semua elemen.
+
+css
+Copy code
+* {
+  margin: 0;
+  padding: 0;
+}
+Berguna untuk reset default browser styling.
+
+
+7. Selektor Pseudo-class
+Menargetkan keadaan khusus dari elemen.
+
+Contoh:
+css
+Copy code
+a:hover {
+  color: red;
+}
+
+Saat mouse diarahkan ke link (<a>), warnanya berubah jadi merah.
+
+
+8. Selektor Pseudo-element
+Menargetkan bagian dari elemen.
+
+Contoh:
+css
+Copy code
+p::first-letter {
+  font-size: 200%;
+  color: orange;
+}
+
+Huruf pertama dari paragraf akan lebih besar dan oranye.
+
+
+Contoh Styling CSS
+1. Positioning : Static, posisi sesuai standar HTML 
+Tidak bisa diatur dengan top, right, bottom, left
+
+2. Relative : Bisa diatur dengan top, right, left, bottom
+posisi akan mengambang di atas elemen lain
+
+3. Absolute : Bisa diatur dengan top, left, bottom, right
+posisi akan mengambang di atas elemen lain
+letak posisi awal dianggap tidak ada sehingga elemen lain akan menempati posisi yang hilang tersebut
+
+
+Model Box CSS
+Content : isi elemen
+Padding : ruang antara isi dan border
+Border : garis pembatas
+Margin : ruang di luar border
+
+Box model mempengaruhi bagaimana elemen elemen HTML berinteraksi satu sama lain
+
+
+Grid Layout
+CSS Grid layout adalah teknik layout berbasis kolom, 1 baris dibagi beberapa kolom, 2 kolom, 3 kolom dst
+CSS Grid sangat powerfull untuk membuat layout responsif dan fleksibel
+Komponen utama : Grid contaier (Elemen pembungkus untuk grid), Grid Item (Elemen elemen di dalam grid container)
