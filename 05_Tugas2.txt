@@ -1,0 +1,13 @@
+Tugas 2
+
+1. buat website yang sebelumnya dibuat jadi seperti ini
+a. menggunakan html css
+b. rubah layout table jadi div
+c. menggunakan grid layout
+d. buat lebih berwarna  menggunakan css
+e. berikan gambar
+f. boleh dibantu chatgpt dan sejenisnya
+
+2. buat halaman responsive agar terlihat baik di berbagai perangkat (Desktop, tablet, mobile) mennggunakan media queris
+
+3. simpan ke dalam repository github
