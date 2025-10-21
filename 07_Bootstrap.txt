@@ -1,0 +1,30 @@
+Apa itu bootstrap?
+Bootstrap itu semacam alat bantu bikin tampilan web cepat dan rapi tanpa harus ngoding CSS dari nol.
+Dibuat pertama kali sama tim engineer Twitter, dia isinya kumpulan template HTML, CSS, dan JavaScript siap pakai — kayak tombol, navbar, form, grid layout, dan komponen UI lainnya.
+
+
+
+kelebihan bootstrap
+Kelebihan Bootstrap itu banyak banget, makanya dia masih jadi framework frontend paling populer meskipun udah banyak pendatang baru kayak Tailwind atau Bulma. Tapi biar jelas dan nggak cuma “katanya keren”, nih keunggulannya dari sisi praktis dan teknikal:
+
+Cepat bikin tampilan rapi tanpa mikir CSS dari nol.
+Tinggal pakai class siap pakai kayak btn btn-primary atau d-flex. Hasilnya langsung clean, responsif, dan enak dilihat.
+Buat pemula, ini ngebantu banget biar bisa fokus ke logika dulu sebelum pusing di estetika.
+
+Responsif by default.
+Bootstrap punya grid system 12 kolom yang otomatis nyesuaiin layout ke ukuran layar (laptop, tablet, HP). Lu nggak perlu bikin media query manual kayak di CSS murni.
+
+Konsisten dan cross-browser.
+Semua elemen (form, tombol, tabel, dsb.) udah distandarisasi tampilannya. Jadi nggak bakal ada “bagus di Chrome, aneh di Firefox.”
+
+Komponen interaktif bawaan.
+Ada modal, dropdown, carousel, toast, tooltip, dan masih banyak lagi. Semua bisa dipakai langsung cuma modal nambahin class dan script JS bawaan.
+
+Dokumentasi super lengkap dan komunitas besar.
+Hampir semua error atau pertanyaan udah pernah ditanyain di Stack Overflow. Dan dokumentasinya jelas banget — tinggal copy-paste dan ubah dikit.
+
+Mudah diintegrasikan.
+Mau dipakai bareng React, Django, Flask, Laravel, atau bahkan HTML polos — gampang banget. Cukup include link CDN atau install via npm.
+
+Desain dasar yang udah modern.
+Default style-nya udah cukup minimalis dan “corporate-looking,” jadi cocok banget buat dashboard, landing page, atau web project yang pengen keliatan profesional tanpa desainer.
