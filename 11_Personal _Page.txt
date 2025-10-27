@@ -1,0 +1,18 @@
+Membuat personal page pertama kali
+
+tujuan pembelajaran : 
+- Belajar cara menggabungkan file html dan css
+- Memahami cara menggunakan bootstrap agar efisien dan responsif
+- Membangun landing page sederhana untuk profil pribadi
+
+Langkah - langkah :
+1. Desain tampilan
+2. Membuat struktur html
+3. menerapkan css dengan bootstrap
+4. optimasi untuk perangkat mobile
+
+Design tampilan :
+1. buat layout menggunakan grid bootstrap
+2. warnai dan pasang gambar
+3. buat responsif
+4. tambahkan komponen dan efek
