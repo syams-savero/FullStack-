@@ -1,0 +1,3 @@
+- edit portofolio landing page menggunakan bootstrap
+- buat agar responsiv
+- beri pop up modal
