@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio Syams Savero</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+  .card {
+    transition: all 0.3s ease;
+    border: none;
+  }
+
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .bg-white {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  .bg-white:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+
+  footer {
+    box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.1);
+  }
+</style>
+
+</head>
+<body class="bg-black">
+
+  <!-- HEADER -->
+  <header class="bg-dark text-white text-center py-4 mb-4 shadow-sm" style="background-image: url(gunung.jpg); background-size: cover; background-position: center;">
+    <h1 class="fw-bold">Welcome!</h1>
+    <p class="mb-0">Solution for all your problem</p>
+  </header>
+
+  <!-- CONTAINER -->
+  <div class="container mb-5">
+    <div class="row g-4">
+      
+      <!-- SIDEBAR -->
+      <aside class="col-md-4">
+        <div class="bg-black border border-dark p-4 rounded shadow-sm h-100">
+          <h2 class="h4 mb-3 text-white">Personal Details</h2>
+          <p class="text-white"><strong>Name:</strong> Syams Savero</p>
+          <p class="text-white"><strong>Profession:</strong> Web Developer, Fullstack, Blockchain</p>
+          <p class="text-white"><strong>Email:</strong> syamssavero@gmail.com</p>
+          <p class="text-white"><strong>Address:</strong> Semarang, Indonesia</p>
+          <p class="text-white"><strong>LinkedIn:</strong> 
+            <a href="https://linkedin.com/in/syamssavero" target="_blank">
+              linkedin.com/in/syamssavero
+            </a>
+          </p>
+          <!--Modal-->
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-success btn-outline-light text-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Order Now
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Order Form</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<!--Form dalam Modal-->
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Customer Name</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+    <div id="emailHelp" class="form-text">Please use your real name, fantasy name's order will not deliverd</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">What do you need?</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" required>
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+    <label class="form-check-label" for="exampleCheck1">Are you sure this order is right?<br>no revision</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main class="col-md-8">
+        <div class="bg-white p-4 rounded shadow-sm mb-4" style="background-image: url(https://imgs.search.brave.com/__tA7oVk24KLRZUDjK7gNgMo9DR67Gk7IY0i5ymxCWM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODQx/NDAzNjgwL2lkL2Zv/dG8vbGFuZ2l0LWJp/bnRhbmctZGktbWFs/YW0taGFyaS1sYXRh/ci1iZWxha2FuZy1y/dWFuZy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9U2N4aDYw/ckpPWXJSMFZxNWdZ/dU9Zc3UtUHg2ejJt/NXdNY2JyQ1F2clA1/TT0); background-size: cover;">
+          <h2 class="h4 mb-3 text-white">Greetings</h2>
+          <p class="text-white">
+            I am a web developer with experience in building responsive, fast, and visually appealing websites and applications. I enjoy solving problems through efficient and clean technological solutions. In addition to web development, I am also passionate about blockchain technology and have experience developing and integrating smart contracts, creating decentralized applications (dApps), and exploring Web3 innovations.
+          </p>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="mb-4">
+          <h3 class="h4 mb-3 text-white">My Projects</h3>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+
+            <!-- Project 1 -->
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://imgs.search.brave.com/pDgKQekDkPvv0c-qQtoBleYmh1Ze0F4QvwXEERlYfak/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS12/ZWN0b3IvdW5pc3dh/cC1jb2luLWJhbm5l/ci11bmktY3J5cHRv/Y3VycmVuY3ktMjYw/bnctMjAzMTEzNjgz/Mi5qcGc" class="card-img-top" alt="Project 1" />
+                <div class="card-body">
+                  <h5 class="card-title">Uni Swap</h5>
+                  <p class="card-text">Maintaining the biggest crypto DEX</p>
+                  <small class="text-muted">Year: 2023</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://imgs.search.brave.com/laKYsuoJ01Gq_lDoMcofp2al8zkmVp7Gm2AY6IqwS74/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvYmlu/YW5jZS1vbi1wZXJm/b3JhdGlvbi13eTBr/a2hyYjd3eWJwcHJ3/LmpwZw" class="card-img-top" alt="Project 2" />
+                <div class="card-body">
+                  <h5 class="card-title">Binance Web Developer</h5>
+                  <p class="card-text">Maintaining the Biggest crypto CEX</p>
+                  <small class="text-muted">Tahun: 2022</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://imgs.search.brave.com/Kjj2DcnNeajDoqNPenCExjB3ctUztPjaoNgWoy3apkE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdG9y/YWdlLmdvb2dsZWFw/aXMuY29tL2RkdGMv/ZGR0Yy1jZG4xL2Nv/bnZlcnQvMjQxMjIz/MDQzMDMzLWFwbGlr/YXNpY29yZXRheHdl/YnAxMjAwZm90b3Nj/LndlYnA" class="card-img-top" alt="Project 3" />
+                <div class="card-body">
+                  <h5 class="card-title">Hack Coretax</h5>
+                  <p class="card-text">Situs profil perusahaan dengan desain elegan & profesional.</p>
+                  <small class="text-muted">Tahun: 2024</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="col">
+              <div class="card h-100">
+                <img src="https://imgs.search.brave.com/tndNoRAsIUxqpgaXsE-kFHT60L3WsE887Z221sfmvhk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNDUx/MDI2MzIwL3Bob3Rv/L2pha2FydGEtaW5k/b25lc2lhLXByZXNp/ZGVudGlhbC1jYW5k/aWRhdGUtcmV0aXJl/ZC1nZW5lcmFsLXBy/YWJvd28tc3ViaWFu/dG8tdGhlLWxlYWRl/ci1vZi10aGUuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVYw/ZHc4eE9hTzB1ajFp/UGlMWlpZX0VqcUpD/UFBrZk1HMDVpVzVN/Sm5zWHc9" class="card-img-top" alt="Project 4" />
+                <div class="card-body">
+                  <h5 class="card-title">Melengserkan Prabowo</h5>
+                  <p class="card-text">2025 Ganti presiden 😹</p>
+                  <small class="text-muted">Tahun: 2025</small>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div class="card">
+          <div class="card-body">
+            <h3 class="h4 mb-3">Contact</h3>
+            <p>Feel free to colaborate</p>
+            <p><strong>Email:</strong> royyankebonharjo@gmail.com</p>
+            <p><strong>WhatsApp:</strong> +62 812 3456 7890</p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3 mt-auto">
+    &copy; 2025 Syams Savero
+  </footer>
+
+</body>
+</html>
