@@ -1,0 +1,50 @@
+Apa itu javascript?
+
+JavaScript itu semacam “otak kecil” di balik hampir semua situs web yang terasa hidup dan interaktif. Kalau HTML itu kerangka tubuhnya, CSS adalah bajunya, maka JavaScript adalah sistem sarafnya—yang bikin tombol bisa diklik, animasi bisa jalan, dan data bisa muncul tanpa harus refresh halaman.
+
+penulisan script biasanya dimasukan dalam tag <script> di html
+
+variabel :
+var 
+let 
+const
+
+Tipe data :
+let num untuk angka
+string untuk teks
+boolean untuk benar dan salah (true/false)
+undefinied adalah variabel yang belum memiliki nilai
+null adalah variabel yang tidak memiliki nilai
+
+Operator :
+aritmatika : + - * / %
+penugasan : =, +=, -=, *=, /=
+Perbandingan : ==, ===, !=, >, <
+Logika : &&, ||, !
+
+Kondisional :
+if 
+if else
+
+Looping :
+while 
+for
+do...while
+
+Fungsi :
+Function
+Arrow Function
+
+Array :
+push()
+pop()
+map()
+filter()
+
+Looping Array :
+for Loop
+for each()
+for...of Loop
+
+DOM (Document Object Model)
+
