@@ -1,0 +1,5 @@
+1. Membuat komponen e commerce menggunakan javascript
+- buat data produk menggunakan array yang berisi nama, harga, deskripsi, dan gambar
+- gunakan javascript untuk menampilkan produk di halaman menggunakan Looping
+
+2. Tambah fitur filter untuk menambahkan filter kategori produk
