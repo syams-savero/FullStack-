@@ -9,6 +9,54 @@
     let angka = 1;
     let string = "String";
     let boolean = true;
-    let null = null
+    let contohNull = null
     let varKodong;
+
+    // if else
+    let angka1 = 10
+    let angka2 = 30
+    function ifElse (angka1, angka2) {
+        if (angka1 < angka2) {
+            return "angka 1 lebih kecil";
+        };
+    };
+
+    console.log(ifElse(angka1, angka2));
+
+    // contoh for loop
+    // kita ingin variabel for loop ini akan looping menjumlahkan isi dari variabel angka 1 hingga nilai nya menjadi 100
+    let hasilLoop = null;
+    for (let a = 0; a < 10; a++) {
+        hasilLoop += angka1
+    };
+
+    console.log(hasilLoop);
+
+
+    // contoh for loop array
+    // kita akan menjumlahkan seluuh isi dari array angka di bawah
+    let arrayAngka = [2, 3, 5, 34, 7, 9, 2, 5, 8];
+    let hasilLoopArray = 0;
+    for (let a = 0; a < arrayAngka.length; a++) {
+        console.log("menambahkan angka = " + arrayAngka[a]);
+        hasilLoopArray += arrayAngka[a];
+    };
+
+    console.log("hasil = " + hasilLoopArray)
+
+
+    // Membuat function validasi nama menggunakan DOM
+    function validasiNama () {
+        let name = document.getElementById("inputNama").value;
+        if (name === "") {
+            alert ("Nama tidak boleh kosong");
+            return false;
+        } else {
+            return alert ("halo " + nama);
+        }
+    }
 </script>
+
+<h1>Mohon isi nama anda :</h1>;
+<input type="text" id="inputNama" name="inputNamauser">
+<button onclick="validasiNama()" type="submit">Submit</button>
