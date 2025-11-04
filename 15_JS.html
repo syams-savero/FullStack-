@@ -25,7 +25,7 @@
 
     // contoh for loop
     // kita ingin variabel for loop ini akan looping menjumlahkan isi dari variabel angka 1 hingga nilai nya menjadi 100
-    let hasilLoop = null;
+    let hasilLoop = 0;
     for (let a = 0; a < 10; a++) {
         hasilLoop += angka1
     };
@@ -52,12 +52,12 @@
             alert ("Nama tidak boleh kosong");
             return false;
         } else {
-            alert ("halo " + nama);
+            alert ("halo " + name);
             return true
         }
     }
 </script>
 
-<h1>Mohon isi nama anda :</h1>;
+<h1>Mohon isi nama anda :</h1>
 <input type="text" id="inputNama" name="inputNamauser">
 <button onclick="validasiNama()" type="submit">Submit</button>
