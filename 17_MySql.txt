@@ -69,3 +69,15 @@ Tipe Data
 
 FOREIGN KEY
 tali penghubung antar tabel untuk identifikasi antar Data
+- Primary key : Unik, tidak null digunakan untuk identifikasi setiap baris
+- FOREIGN key : menghubungkan setiap tabel untuk identifikasi antar data
+- Unique : nilai kolom harus unik (tidak ada duplikat)
+- Not Null : nilai kolom tidak boleh kosong
+- Default : memberikan nilai default jika tidak ada input
+- Check : membatasi nilai data dengan syarat tertentu
+- Index : mencari data dengan cepat (berlaku untuk database besar)
+- Auto Increment : menghasilkan nilai unik / ciri khas data secara otomatis
+note : nilai unik adalah cirikhas suatu data yang tidak dimiliki oleh data lainya, sehingga semua data memiliki ciri khas nya masing masing
+contoh : [[Prabowo, 2], [Gibran, 1]]
+data di atas menunjukan nilai unik Prabowo adalah 2 dan Gibran 1 
+
