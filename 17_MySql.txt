@@ -1,0 +1,71 @@
+Apa itu database?
+database adalah sistem untuk menyimpan, mengelola, dan mengakses data secara efisien 
+
+Peran dalam website :
+- menyimpan data pengguna, transaksi, produk, dll
+- membantu pengelolaan konten dinamis
+- mendukung analisis dan pelaporan data
+Contoh :
+- Media sosial : menyimpan profil pengguna dan postingan
+- e commerce : mengelola pembelian, produk,transaksi, dll
+
+
+Jenis - jenis database :
+1. Relasional :
+- MySql, PostgreSql
+- data disimpan dalam tabel yang berelasi
+- menggunakan SQL (Structure Query Language)
+
+2. Non Relasional :
+- MongoDB, Firebase
+- Data disimpan dalam bentu dokumen, key-value, atau graf
+
+Kapan digunakan?
+- SQL jika untuk data terstruktur
+- Non SQL untuk data tidak terstruktur, membutuhkan skalabilitas tinggi
+
+
+Tipe Data
+1. Tipe data Relasional
+    a. tipe data numerik
+    TINYINT
+    SMALLINT
+    MEDIUMINT
+    INT/INTEGER
+    BIGINT
+    DECIMAL
+    FLOAT
+    DOUBLE
+
+    b. tipe data string
+    CHAR(n)
+    VARCHAR(n)
+    TEXT
+    ENUM
+    SET
+
+    c. tipe data waktu dan tanggal
+    DATE
+    DATETIME
+    TIMESTAMP
+    TIME
+    YEAR
+
+    d. tipe data biner
+    BLOB
+    BIT
+
+2. Tipe data non SQL
+    1. string
+    2. number
+    3. boolean
+    4. array/list
+    5. object/map
+    6. date/TIME
+    7. binary
+    8. UUID
+    9. NULL
+
+
+FOREIGN KEY
+tali penghubung antar tabel untuk identifikasi antar Data
