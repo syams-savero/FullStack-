@@ -111,3 +111,27 @@ memperbarui data :
 
 menghapus data :
     DELETE FROM users WHERE id = 1;
+
+
+Query data menggunakan WHERE
+sama seperti menggunakan filter dan search bar untuk mengambil data dari kondisi tertentu
+contoh :
+    SELECT * FROM products WHERE stock > 10
+    SELECT * FROM products WHERE name = 'laptop'
+
+Query data dengan ORDER BY 
+Digunakan untuk mengurutkan data berdasarkan kolom tertentu
+contoh :
+    SELECT * FROM products ORDER BY price ASC
+    SELECT * FROM products ORDER BY stocks DESC
+
+Query data menggunakan GROUP BY
+Digunakan untuk mengelompokan data berdasarkan kolom tertentu
+contoh :
+     SELECT category, COUNT(*) AS total_products
+     FROM products
+     GROUP BY category;
+
+     SELECT stock, SUM(price * Stock) AS stock_value
+     FROM products
+     GROUP BY stock
