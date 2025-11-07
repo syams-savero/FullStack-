@@ -135,3 +135,29 @@ contoh :
      SELECT stock, SUM(price * Stock) AS stock_value
      FROM products
      GROUP BY stock
+
+Query JOIN 
+berfungsi untuk menggabungkan tabel data
+1. INNER JOIN
+    hanya ambil data yang cocok dari 2 tabel
+    SELECT Users.Nama, Orders.Total
+    FROM Users
+    INNER JOIN Orders ON Users.ID = Orders.UserID;
+
+2. LEFT JOIN
+    semua data kiri + match kanan
+    SELECT Users.Nama, Orders.Total
+    FROM Users
+    LEFT JOIN Orders ON Users.ID = Orders.UserID;
+
+3. RIGHT JOIN
+    semua data kanan + match kiri
+    SELECT Users.Nama, Orders.Total
+    FROM Users
+    RIGHT JOIN Orders ON Users.ID = Orders.UserID;
+
+4. FULL OUTER JOIN
+    semua + match kalau ada, NULL kalau nggak
+    SELECT Users.Nama, Orders.Total
+    FROM Users
+    FULL OUTER JOIN Orders ON Users.ID = Orders.UserID;
