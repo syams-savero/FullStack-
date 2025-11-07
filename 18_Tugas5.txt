@@ -1,0 +1,12 @@
+Tugas
+1. Buat database MySQL untuk e-commerce yang berisi tabel
+products, users, dan orders.
+a. Tabel products: Memuat informasi seperti id, nama
+produk, harga, deskripsi, dan stok.
+b. Tabel users: Menyimpan data pengguna seperti id,
+nama, email, dan password.
+c. Tabel orders: Menyimpan data pesanan yang mencakup
+order_id, user_id, product_id, quantity, dan total.
+2. Buat query untuk menambah (Create), membaca (Read),
+mengubah (Update), dan menghapus (Delete) data
+produk.
