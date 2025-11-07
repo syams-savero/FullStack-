@@ -1,0 +1,9 @@
+1. sudo mysql
+2. CREATE DATABASE contoh
+3. USE contoh
+4. CREATE TABLE users(id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(100), email VARCHAR(100));
+5. SHOW TABLES  # untuk cek isi database
+6. INSERT INTO users (name, email) VALUES ('savero', 'mssavero@gmail.com');
+7. SELECT * FROM users;     # untuk ambil data
+8. UPDATE users SET name = 'mas rusdi' WHERE id = 1;    # Untuk update data
+9. DELETE FROM users WHERE id = 1;
