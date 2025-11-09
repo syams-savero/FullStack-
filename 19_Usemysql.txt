@@ -7,3 +7,4 @@
 7. SELECT * FROM users;     # untuk ambil data
 8. UPDATE users SET name = 'mas rusdi' WHERE id = 1;    # Untuk update data
 9. DELETE FROM users WHERE id = 1;
+10. tugas selesai
