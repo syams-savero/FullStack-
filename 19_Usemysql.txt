@@ -1,3 +1,5 @@
+praktik dasar my sql
+
 1. sudo mysql
 2. CREATE DATABASE contoh
 3. USE contoh
@@ -7,4 +9,33 @@
 7. SELECT * FROM users;     # untuk ambil data
 8. UPDATE users SET name = 'mas rusdi' WHERE id = 1;    # Untuk update data
 9. DELETE FROM users WHERE id = 1;
-10. tugas selesai
+
+
+penggunaan query :
+
+SELECT * FROM users WHERE name = 'Vero';
++----+------+-----------------------+
+| id | name | email                 |
++----+------+-----------------------+
+|  4 | Vero | syamsSavero@gmail.com |
++----+------+-----------------------+
+1 row in set (0,01 sec)
+
+ SELECT * FROM users WHERE id > 2;
++----+----------+----------------------------+
+| id | name     | email                      |
++----+----------+----------------------------+
+|  3 | bang roy | royyankebonharjo@gmail.com |
+|  4 | Vero     | syamsSavero@gmail.com      |
++----+----------+----------------------------+
+2 rows in set (0,00 sec)
+
+SELECT * FROM users ORDER BY id DESC;
++----+----------+----------------------------+
+| id | name     | email                      |
++----+----------+----------------------------+
+|  4 | Vero     | syamsSavero@gmail.com      |
+|  3 | bang roy | royyankebonharjo@gmail.com |
+|  2 | budi     | budi@example.com           |
++----+----------+----------------------------+
+3 rows in set (0,01 sec)
