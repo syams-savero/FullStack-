@@ -31,3 +31,23 @@ Langkah - langkah menyelesaikan Tugas 5
 | products            |
 | users               |
 +---------------------+
+
+7. INSERT INTO users (nama, email, password) VALUES
+    -> ('Ariana', 'ariana@example.com', 'pass123'),
+    -> ('Bagas', 'bagas@example.com', 'secret987'),
+    -> ('Citra', 'citra@example.com', 'qwerty');
+
+8. INSERT INTO products (nama_produk, harga, deskripsi, stok) VALUES
+    -> ('Laptop Nebula 3000', 15000000, 'Laptop kenceng buat multitasking galaksi', 10),
+    -> ('Headset Quantum Bass', 350000, 'Bass sampai tulang ikut geter', 25),
+    -> ('Mouse Stardust Pro', 200000, 'Responsif dan glowing-glowing aesthetic', 40);
+
+9. INSERT INTO orders (user_id, product_id, quantity, total) VALUES
+    -> (1, 1, 1, 15000000),
+    -> (2, 2, 2, 700000),
+    -> (3, 3, 1, 200000);
+
+10. SELECT * FROM users;
+    SELECT * FROM products;
+    SELECT * FROM orders;
+ 
