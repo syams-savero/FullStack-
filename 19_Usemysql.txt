@@ -39,3 +39,38 @@ SELECT * FROM users ORDER BY id DESC;
 |  2 | budi     | budi@example.com           |
 +----+----------+----------------------------+
 3 rows in set (0,01 sec)
+
+
+penggunaan JOIN :
+
+Tabel users 
++----+----------+----------------------------+
+| id | name     | email                      |
++----+----------+----------------------------+
+|  2 | budi     | budi@example.com           |
+|  3 | bang roy | royyankebonharjo@gmail.com |
+|  4 | Vero     | syamsSavero@gmail.com      |
++----+----------+----------------------------+
+
+
+Tabel barang
++----+----------+-------------+-------+
+| id | users_id | nama_produk | harga |
++----+----------+-------------+-------+
+|  1 |        2 | Keyboard    | 50000 |
+|  3 |        2 | Headset     | 70000 |
+|  4 |        3 | Mouse       | 15000 |
++----+----------+-------------+-------+
+
+
+query join 
+SELECT users.name, users.email, barang.nama_produk, barang.harga FROM users INNER JOIN barang ON users.id = barang.users_id;
++----------+----------------------------+-------------+-------+
+| name     | email                      | nama_produk | harga |
++----------+----------------------------+-------------+-------+
+| budi     | budi@example.com           | Keyboard    | 50000 |
+| budi     | budi@example.com           | Headset     | 70000 |
+| bang roy | royyankebonharjo@gmail.com | Mouse       | 15000 |
++----------+----------------------------+-------------+-------+
+
+kode di atas hanya sekali jalan, tidak ter save
