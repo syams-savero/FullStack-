@@ -161,3 +161,8 @@ berfungsi untuk menggabungkan tabel data
     SELECT Users.Nama, Orders.Total
     FROM Users
     FULL OUTER JOIN Orders ON Users.ID = Orders.UserID;
+
+Untuk ngecek
+SHOW DATABASES;
+SHOW TABLES;        
+SELECT * FROM nama table
