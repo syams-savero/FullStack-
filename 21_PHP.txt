@@ -1,0 +1,23 @@
+PHP adalah bahasa yang digunakan dalam server side, intinya dia berjjalan di server bukan di browser.
+fungsi dari PHP adalah untuk back end dari website. ngatur data, login, dll
+
+Cara install di linux (debian base)
+1. sudo apt update && sudo apt upgrade 
+
+2. Install web server   
+    apache : sudo apt install apache2
+    Nginx : sudo apt install nginx
+
+3. Install PHP
+    apache : sudo apt install php libapache2-mod-php
+    ngginx : sudo apt install php-fpm php-mysql
+
+4. Restart web server 
+    apache : sudo systemctl restart apache2
+    nginx : sudo systemctl restart nginx
+            sudo systemctl restart php7.x-fpm (Ganti versi PHP sesuai yang terinstall, misalnya php7.4-fpm atau php8.1-fpm.)
+
+5. sudo nano /var/www/html/test.php
+    <?php phpinfo(); ?>
+    Simpan (CTRL + O, Enter, CTRL + X), lalu buka di browser:
+    http://localhost/test.php
