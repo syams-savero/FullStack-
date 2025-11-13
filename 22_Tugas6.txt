@@ -1,0 +1,4 @@
+Tugas 
+1.Tugas Dasar PHP: Buat file PHP sederhana yang akan digunakan untuk memproses data form. o Pelajari cara deklarasi variabel, operator, dan penggunaan if-else. 
+2.Tugas Form Input: Buat form input untuk menambahkan produk baru dengan informasi nama, harga, dan deskripsi. 
+3. Tugas Validasi: Tambahkan validasi sederhana untuk memastikan data yang diinputkan tidak kosong sebelum disimpan ke database. 
