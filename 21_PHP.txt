@@ -21,3 +21,31 @@ Cara install di linux (debian base)
     <?php phpinfo(); ?>
     Simpan (CTRL + O, Enter, CTRL + X), lalu buka di browser:
     http://localhost/test.php
+
+
+untuk cek port yang sedang digunakan
+sudo lsof -i :8080
+sudo lsof -i :80
+
+cek status
+sudo systemctl status apache2
+sudo systemctl status nginx
+
+
+
+Syntax dasar PHP
+    tag PHP menggunakan <?php dan ?>
+    statement di akhiri dengan ;
+    output menggunakan echo atau print
+    contoh :
+    <?php
+    echo "Aku PHP";
+    ?>
+
+variabel di php menggunakan $
+contoh :
+    <?php
+    $nama = "mas gatot";
+    $umur = 35;
+    echo "nama saya $nama umur saya $umur";
+    ?>
