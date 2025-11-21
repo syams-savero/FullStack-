@@ -1,0 +1,8 @@
+Membuat sistem login menggunakan switch atau match seperti selamat datang admin atau user
+Membuat LOOP menggunakan PHP
+Loop array menggunakan foreach
+membuat function, array, nested array
+
+Mengkoneksikan PHP dengan database menggunakan MySQLi atau PDO
+Membuat CRUD menggunakan PHP. 
+Membuat validasi form menggunakan php
