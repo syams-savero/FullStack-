@@ -1,0 +1,5 @@
+Note : mulai sekarang hanya merangkum dan tidak coding lewat php. akan coding lewat typescript
+
+1. koneksi PHP ke data MySQL
+2. ambil data produk dan tampilkan menggunakan looping
+3. tambahkan fitur filter pada kategori produk
