@@ -1,0 +1,5 @@
+hubungkan php dgn database
+CRUD
+bikin fitur
+
+membuat fitur keranjang belanja (ecommerce)
