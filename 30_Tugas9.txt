@@ -1,0 +1,3 @@
+1. Bikin proyek laravel 
+2. Buat menggunakan route
+3. konfigurasi database dan buat model serta controller awal untuk product dan order (di course mau bikin ecommerce)
