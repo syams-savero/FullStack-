@@ -1,0 +1,4 @@
+Routing : untuk mengatur jalur aplikasi web
+route model binding : routing otomatis
+rate limiting : membatasi request ke server
+CORS : ijin akses API dari domain lain
