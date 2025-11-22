@@ -1,0 +1,7 @@
+1. Membuat CRUD
+2. Membuat fitur
+3. Integrasikan Fitur dengan CRUD
+
+
+urutan mengerjakan :
+bikin database, halaman untuk database, tombol dll
