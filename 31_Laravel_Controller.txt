@@ -1,0 +1,3 @@
+Controller adalah untuk menangani alur logika aplikasi
+- Menautkan controller ke route
+Blade engine bawaan untuk membuat tampilan
